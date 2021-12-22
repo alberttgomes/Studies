@@ -1,0 +1,15 @@
+/home/alberttgomes/StudiesDotNet/bin/Debug/net6.0/StudiesDotNet
+/home/alberttgomes/StudiesDotNet/bin/Debug/net6.0/StudiesDotNet.deps.json
+/home/alberttgomes/StudiesDotNet/bin/Debug/net6.0/StudiesDotNet.runtimeconfig.json
+/home/alberttgomes/StudiesDotNet/bin/Debug/net6.0/StudiesDotNet.dll
+/home/alberttgomes/StudiesDotNet/bin/Debug/net6.0/ref/StudiesDotNet.dll
+/home/alberttgomes/StudiesDotNet/bin/Debug/net6.0/StudiesDotNet.pdb
+/home/alberttgomes/StudiesDotNet/obj/Debug/net6.0/StudiesDotNet.csproj.AssemblyReference.cache
+/home/alberttgomes/StudiesDotNet/obj/Debug/net6.0/StudiesDotNet.GeneratedMSBuildEditorConfig.editorconfig
+/home/alberttgomes/StudiesDotNet/obj/Debug/net6.0/StudiesDotNet.AssemblyInfoInputs.cache
+/home/alberttgomes/StudiesDotNet/obj/Debug/net6.0/StudiesDotNet.AssemblyInfo.cs
+/home/alberttgomes/StudiesDotNet/obj/Debug/net6.0/StudiesDotNet.csproj.CoreCompileInputs.cache
+/home/alberttgomes/StudiesDotNet/obj/Debug/net6.0/StudiesDotNet.dll
+/home/alberttgomes/StudiesDotNet/obj/Debug/net6.0/ref/StudiesDotNet.dll
+/home/alberttgomes/StudiesDotNet/obj/Debug/net6.0/StudiesDotNet.pdb
+/home/alberttgomes/StudiesDotNet/obj/Debug/net6.0/StudiesDotNet.genruntimeconfig.cache
