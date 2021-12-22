@@ -5,15 +5,15 @@ namespace Studies
 {
    class Program
    {
-    static void Main (String[] args)
-    {
-        int numeroVezes = 5;
-
-        for(int i = 0; i < numeroVezes; i++)
+        static void Main (String[] args)
         {
-            Console.WriteLine($"Studies .NET Microsoft, Language C# {i}");
-        }
-    } 
+            int numeroVezes = 5;
+
+            for(int i = 0; i < numeroVezes; i++)
+            {
+                Console.WriteLine($"Studies .NET Microsoft, Language C# {i}");
+            }
+        } 
 
    }
  
