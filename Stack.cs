@@ -1,6 +1,6 @@
 using System;
 
-namespace StructurePilha
+namespace StructureStack
 {
     public class Pilha
     {

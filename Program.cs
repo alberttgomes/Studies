@@ -1,18 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
-namespace Studies
+namespace StructureStack
 {
    class Program
    {
-        static void Main (String[] args)
+        static void Main ()
         {
-            int numeroVezes = 5;
-
-            for(int i = 0; i < numeroVezes; i++)
-            {
-                Console.WriteLine($"Studies .NET Microsoft, Language C# {i}");
-            }
+           var s = new Pilha();
+           s.Stack(1);
+           s.Stack(10);
+           s.Stack(100);
+           s.Stack(1000);
+           Console.WriteLine(s.Unstacks());
+           Console.WriteLine(s.Unstacks());
+           Console.WriteLine(s.Unstacks());
+           Console.WriteLine(s.Unstacks());
         } 
 
    }
