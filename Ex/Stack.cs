@@ -1,5 +1,3 @@
-using System;
-
 namespace StructureStack
 {
     public class Pilha
@@ -15,7 +13,7 @@ namespace StructureStack
         {
             if(first == null)
             {
-                throw new InvalidOperationException();
+                throw new InvalidOperationException("Pilha vazia");
             }
 
             object result = first.item;
