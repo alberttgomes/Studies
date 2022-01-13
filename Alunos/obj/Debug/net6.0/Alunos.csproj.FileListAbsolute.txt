@@ -1,0 +1,15 @@
+/home/alberttgomes/StudiesDotNet/Alunos/bin/Debug/net6.0/Alunos
+/home/alberttgomes/StudiesDotNet/Alunos/bin/Debug/net6.0/Alunos.deps.json
+/home/alberttgomes/StudiesDotNet/Alunos/bin/Debug/net6.0/Alunos.runtimeconfig.json
+/home/alberttgomes/StudiesDotNet/Alunos/bin/Debug/net6.0/Alunos.dll
+/home/alberttgomes/StudiesDotNet/Alunos/bin/Debug/net6.0/ref/Alunos.dll
+/home/alberttgomes/StudiesDotNet/Alunos/bin/Debug/net6.0/Alunos.pdb
+/home/alberttgomes/StudiesDotNet/Alunos/obj/Debug/net6.0/Alunos.csproj.AssemblyReference.cache
+/home/alberttgomes/StudiesDotNet/Alunos/obj/Debug/net6.0/Alunos.GeneratedMSBuildEditorConfig.editorconfig
+/home/alberttgomes/StudiesDotNet/Alunos/obj/Debug/net6.0/Alunos.AssemblyInfoInputs.cache
+/home/alberttgomes/StudiesDotNet/Alunos/obj/Debug/net6.0/Alunos.AssemblyInfo.cs
+/home/alberttgomes/StudiesDotNet/Alunos/obj/Debug/net6.0/Alunos.csproj.CoreCompileInputs.cache
+/home/alberttgomes/StudiesDotNet/Alunos/obj/Debug/net6.0/Alunos.dll
+/home/alberttgomes/StudiesDotNet/Alunos/obj/Debug/net6.0/ref/Alunos.dll
+/home/alberttgomes/StudiesDotNet/Alunos/obj/Debug/net6.0/Alunos.pdb
+/home/alberttgomes/StudiesDotNet/Alunos/obj/Debug/net6.0/Alunos.genruntimeconfig.cache
