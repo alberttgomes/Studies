@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
-using System;
+//using System;
 using AlunoEx;
+using AlunoEnum;
 
 namespace Alunos
  {
@@ -40,13 +41,51 @@ namespace Alunos
                     case "2":
                         foreach(var a in alunos)
                         {
-                            if(!a.Nome.Equals(""))
+                            if(!string.IsNullOrEmpty(a.Nome))
                             {
                                 Console.WriteLine($"Aluno: {a.Nome} -  Nota: {a.Nota}");
                             }
                         }
                         break;
                     case "3":
+                        decimal notaTotal = 0;
+                        var numAlunos = 0;
+                        
+                        for(int i = 0; i < alunos.Length; i++)
+                        {
+                          if(!string.IsNullOrEmpty(alunos[i].Nome))
+                          {
+                              notaTotal = notaTotal + alunos[i].Nota;
+                              numAlunos++;
+
+                          }   
+                        }
+
+                        var mediaGeral = notaTotal / numAlunos;
+                        AlunoConceito conceitoGeral;
+
+                        if(mediaGeral < 2)
+                        {
+                            conceitoGeral = AlunoConceito.E;
+                        }
+                        else if (mediaGeral < 4)
+                        {
+                            conceitoGeral = AlunoConceito.D;
+                        }
+                        else if (mediaGeral < 6)
+                        {
+                            conceitoGeral = AlunoConceito.C;
+                        }
+                        else if (mediaGeral < 8)
+                        {
+                            conceitoGeral = AlunoConceito.B;
+                        }
+                        else
+                        {
+                            conceitoGeral = AlunoConceito.A;
+                        }
+
+                        Console.WriteLine($"Média geral: {mediaGeral} - Conceito: {conceitoGeral}");
 
                         break;
                     default:
@@ -58,7 +97,7 @@ namespace Alunos
         
         }
 
-        private static string ObterOpcaoUsuario()
+        public static string ObterOpcaoUsuario()
         {
             Console.WriteLine("Informe a opção desejada: ");
             Console.WriteLine("1 - Inserir novo aluno");
@@ -67,7 +106,7 @@ namespace Alunos
             Console.WriteLine("X - Sair");
             Console.WriteLine();
             
-            string opcaoUsuario = Console.ReadLine();
+            string opcaoUsuario = "";
             return opcaoUsuario;
         }
     }
