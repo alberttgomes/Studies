@@ -64,7 +64,7 @@ namespace Alunos
                         var mediaGeral = notaTotal / numAlunos;
                         AlunoConceito conceitoGeral;
 
-                        if(mediaGeral < 2)
+                        if (mediaGeral < 2)
                         {
                             conceitoGeral = AlunoConceito.E;
                         }
