@@ -4,6 +4,7 @@ using ExemploClasseAbstrata;
 using ExemploCalculadora;
 using ExemploHeranca;
 using ExemploRetangulo;
+using Exemplo_Interface;
 
 namespace StudiesDotNet
 {
@@ -15,9 +16,19 @@ namespace StudiesDotNet
             //
             // P O L I M O R F I S M O   C O M P I L A Ç Ã O
 
-            Calculadora calculadora = new Calculadora();
-            System.Console.WriteLine("Resultado da primeira soma: " + calculadora.Somar(10,10));
-            System.Console.WriteLine("Resultado da segunda soma: " + calculadora.Somar(15,15,30));
+            // Calculadora calculadora = new Calculadora();
+            // System.Console.WriteLine("Resultado da primeira soma: " + calculadora.Somar(10,10));
+            // System.Console.WriteLine("Resultado da segunda soma: " + calculadora.Somar(15,15,30));
+            
+            ICalculadora calc = new CalculadoraComum();
+            System.Console.WriteLine(calc.somar(10,15));
+            System.Console.WriteLine(calc.dividir(10,15));
+            System.Console.WriteLine(calc.multiplicar(10,15));
+            System.Console.WriteLine(calc.subtrair(15, 10));
+           
+            // E X E M P L O  S T R E A M   L I S T
+
+            var listaString = new List<string> {"Linha 1", "Linha 2", "Linha 3"};
             
             //    E X E M P L O   P I L H A
             //
